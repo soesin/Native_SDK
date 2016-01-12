@@ -695,7 +695,7 @@
 		if(_scale != 1.0)
 			touchLocation.x*=_scale;touchLocation.y*=_scale;
 		
-		float Position[2] = { touchLocation.x, touchLocation.y };
+		float Position[2] = { static_cast<float>(touchLocation.x), static_cast<float>(touchLocation.y) };
 		m_pPVRShellInit->BeganTouch(Position, m_pPVRShellInit);
 	}
 }
@@ -713,7 +713,7 @@
 		if(_scale != 1.0)
 			touchLocation.x*=_scale;touchLocation.y*=_scale;
 		
-		float Position[2] = { touchLocation.x, touchLocation.y };
+		float Position[2] = { static_cast<float>(touchLocation.x), static_cast<float>(touchLocation.y) };
 		m_pPVRShellInit->MovedTouch(Position, m_pPVRShellInit);
 	}
 }
@@ -732,7 +732,7 @@
 		if(_scale != 1.0)
 			touchLocation.x*=_scale;touchLocation.y*=_scale;
 		
-		float Position[2] = { touchLocation.x, touchLocation.y };
+		float Position[2] = { static_cast<float>(touchLocation.x), static_cast<float>(touchLocation.y) };
 		m_pPVRShellInit->EndedTouch(Position, m_pPVRShellInit);
 	}
 }
