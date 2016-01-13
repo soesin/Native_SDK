@@ -492,6 +492,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = OGLES2Tools;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "../../../../../Tools/OGLES2 ../../../../../Tools";
 			};
 			name = Debug;
@@ -507,6 +508,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = BUILD_OGLES2;
 				PRODUCT_NAME = OGLES2Tools;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "../../../../../Tools/OGLES2 ../../../../../Tools";
 			};
 			name = Release;
@@ -524,6 +526,7 @@
 				PRODUCT_NAME = OGLES2Tools;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "../../../../../Tools/OGLES2 ../../../../../Tools";
 				VALIDATE_PRODUCT = YES;
 			};

@@ -535,6 +535,7 @@
 		F81D1BA611076AA70067C854 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_OPTIMIZATION_LEVEL = s;
 			};
 			name = Distribution;
@@ -542,6 +543,7 @@
 		F8748A3B0FF221480052D400 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_OPTIMIZATION_LEVEL = 0;
 			};
 			name = Debug;
@@ -549,6 +551,7 @@
 		F8748A3C0FF221480052D400 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_OPTIMIZATION_LEVEL = s;
 			};
 			name = Release;
