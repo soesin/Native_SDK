@@ -490,6 +490,7 @@
 					"DEBUG=1",
 					BUILD_OGLES3,
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = OGLES3Tools;
 				SDKROOT = iphoneos;
@@ -507,6 +508,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = BUILD_OGLES3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = OGLES3Tools;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "../../../../../Tools/OGLES3 ../../../../../Tools";
@@ -524,6 +526,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = BUILD_OGLES3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = OGLES3Tools;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -537,6 +540,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_OPTIMIZATION_LEVEL = s;
+				SKIP_INSTALL = YES;
 			};
 			name = Distribution;
 		};
@@ -545,6 +549,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_OPTIMIZATION_LEVEL = 0;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -553,6 +558,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_OPTIMIZATION_LEVEL = s;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
