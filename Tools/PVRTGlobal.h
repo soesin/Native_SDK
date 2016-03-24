@@ -134,9 +134,9 @@ typedef struct tagRGBQUAD
 #endif
 
 #include <stdio.h>
-
+#ifndef FREE
 #define FREE(X)		{ if(X) { free(X); (X) = 0; } }
-
+#endif
 // This macro is used to check at compile time that types are of a certain size
 // If the size does not equal the expected size, this typedefs an array of size 0
 // which causes a compile error
